@@ -50,7 +50,7 @@ jobs:
     - name: Deploy to Kubernetes cluster
       uses: Azure/k8s-deploy@v3.0
       with:
-        images: gui/rottent-potetoes
+        images: guizeira/rotten-potatoes:latest
         manifests: |
           deploy.yaml
         
