@@ -52,5 +52,5 @@ jobs:
       with:
         images: guizeira/rotten-potatoes:latest
         manifests: |
-          deploy.yaml
+          src/deployment.yaml
         
